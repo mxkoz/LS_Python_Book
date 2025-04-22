@@ -15,3 +15,7 @@ while index < len(names):
 
 print(upper_names)
 
+numbers = [1,2,3]
+numbers_2 = numbers
+print(id(numbers))
+print(id(numbers_2))
